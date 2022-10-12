@@ -1,17 +1,14 @@
-def myfunc():
-    print("YO")
-    print("another thing")
-    print("asddf")
-
+def myfunc(a, b):
+    return a ** b
 #from foo.foo_utils import foo_function
 #from bar.subbar.subbar_utils import subbar_function
 #
 #
-#def hello():
+# def hello():
 #    print(foo_function(1))
 #    print("hello")
 #    print(subbar_function(2))
 #
 #
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 #    hello()
